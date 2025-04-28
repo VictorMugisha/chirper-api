@@ -1,8 +1,9 @@
 import mongoose from "mongoose";
 import express from "express";
-import dotenv from "dotenv"
+import dotenv from "dotenv";
 
 import postRoutes from "./routes/post.routes.js";
+import { seedDatabase } from "./utils/generatePost.js";
 
 dotenv.config();
 
@@ -23,3 +24,6 @@ mongoose
     });
   })
   .catch((err) => console.error("MongoDB connection error:", err));
+
+// Function to create and insert fake data
+// seedDatabase()

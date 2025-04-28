@@ -3,7 +3,6 @@ import Post from "../models/post.model.js";
 export async function getAllPosts(req, res) {
   try {
     const posts = await Post.find();
-    console.log("returning all posts: ", posts);
     res.status(200).json(posts);
   } catch (error) {
     res
