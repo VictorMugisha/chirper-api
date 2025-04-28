@@ -1,0 +1,24 @@
+{
+  "name": "chirper-api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Victor Mugisha",
+  "type": "module",
+  "license": "ISC",
+  "description": "A backend API for my frontend React Native Twitter clone!",
+  "dependencies": {
+    "@faker-js/faker": "^9.7.0",
+    "@types/express": "^5.0.1",
+    "@types/mongoose": "^5.11.96",
+    "@types/node": "^22.15.3",
+    "express": "^5.1.0",
+    "i": "^0.3.7",
+    "mongoose": "^8.14.0",
+    "nodemon": "^3.1.10",
+    "npm": "^11.3.0"
+  }
+}
